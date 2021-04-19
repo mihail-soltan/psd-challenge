@@ -1,0 +1,419 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+.box-1 {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  flex-direction: row;
+}
+header p {
+  max-width: 500px;
+}
+.box-2 {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box-2 img {
+  margin: 20px 40px 20px 40px;
+}
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+.box-2 p {
+  display: flex;
+  color:black;
+  text-align: left;
+  max-width: 400px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+}
+.content .button {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-self: flex-start;
+  background: transparent;
+  font-size: 24px;
+  border: 1px solid cyan;
+  color: cyan;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.content .button:hover {
+  color: black;
+  border: 1px solid black;
+}
+.box-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(photoshop1/photoshop/design-assets/bgk-middle.png);
+  padding-top: 200px;
+}
+.box-3 h4 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 180px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+
+
+.box-4 p {
+  color: gray;
+   
+}
+.box-4 div p {
+  max-width: 200px;
+}
+
+.box-4 h5 {
+  font-weight: bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+#cards div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+.box-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(photoshop1/photoshop/design-assets/bgk-header.png);
+  flex-direction: column;
+  background-size: cover;
+ 
+}
+.box-5 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px 40px 10px;
+  
+  border: 1px solid gray;
+}
+.card-text {
+ color: gray;
+ text-align: center;
+ font-weight: bolder;
+ margin-top: 0;
+}
+.box-5 h5 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+.box-5 .button {
+  margin-bottom: 50px;
+}
+.box-5 p {
+  color: gray;
+}
+.card p {
+  text-align: center;
+  width: 10vw;
+  padding: 0;
+  margin: 0;
+}
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team h4 {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.box-6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: space-around;
+  align-items: center;
+}
+.box-6 h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  width: 30vw;
+}
+.contact-form input, textarea {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: gray;
+  padding: 10px;
+}
+.client {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 20px;
+width: 30vw;
+}
+
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  max-width: 380px;
+  justify-content: left;
+}
+.brands img {
+
+  max-width: 125px;
+  max-height: 125px;
+  padding: 20px 20px 20px 0px;
+  
+}
+
+.box-7 {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  flex-direction: row;
+  background-image: url(photoshop1/photoshop/design-assets/bgk-footer.png);
+}
+.logo h5 {
+  font-size: 28px;
+  color: cyan;
+  font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 0px 0px 10px;
+}
+.studio {
+  font-size: 16px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  
+}
+.address p {
+  margin: 0px 5px 10px 10px;
+}
+.newsletter {
+  display: flex;
+}
+
+.newsletter input {
+  width: 175px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+.box-7 a img {
+  margin: 20px 5px 5px 0px;
+}
+.newsletter button {
+  background-color: rgb(226, 226, 226, 0.75);
+  padding: 10px 20px 10px 20px;
+  margin-left: 10px;
+}
+.newsletter button:hover {
+  background-color: rgb(226, 226, 226, 0.25); 
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.terms h6:hover {
+  color: cyan;
+}
+.copyright {
+  color: white;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+}
+
+.box-7 p {
+  max-width: 300px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 36px;
+  color: cyan;
+  font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 10px 0px 10px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.box-1 a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 5px;
+}
+.box-1 a:hover {
+  color: cyan;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+header {
+  display: flex;
+  background-image: url(photoshop1/photoshop/design-assets/bgk-header.png);
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-size: 100% 100%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;    
+}
+.button  {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-self: center;
+  background: transparent;
+  font-size: 24px;
+  border: 1px solid cyan;
+  color: cyan;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.button:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+#submit {
+  background: transparent;
+  font-size: 24px;
+  border: 1px solid cyan;
+  color: cyan;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: fit-content;
+}
+#submit:hover {
+  color: black;
+  border: 1px solid black;
+}
+@media (min-width: 400px) {
+  #cards div {
+    width: 50%;
+  }
+
+} 
+@media (min-width: 800px) {
+  #cards {
+    max-width: 800px;
+  }
+  #cards div {
+    width: 33.33333%;
+  }
+}
+@media (max-width: 750px) {
+  .box-6 {
+    flex-direction: column;
+    align-items:flex-start;
+  }
+  .contact-form input, textarea {
+    width: 215px;
+  }
+}
